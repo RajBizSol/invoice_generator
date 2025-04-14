@@ -1,0 +1,64 @@
+/* Invoice-specific styles */
+#invoiceForm {
+    background-color: white;
+    border-radius: 0.35rem;
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #6c757d;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.form-control {
+    border: 1px solid #d1d3e2;
+}
+
+.form-control:focus {
+    border-color: #bac8f3;
+}
+
+.remove-item {
+    padding: 0.25rem 0.5rem;
+    line-height: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table-responsive {
+        border: 0;
+    }
+    
+    .table thead {
+        display: none;
+    }
+    
+    .table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid #dee2e6;
+    }
+    
+    .table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+    }
+    
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+}

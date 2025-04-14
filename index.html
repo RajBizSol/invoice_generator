@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Project showcase template for GitHub Pages">
+
     <meta name="keywords" content="bootstrap, project, showcase, template">
     <meta name="author" content="Your Name">
     
-    <title>DeepSeek - Project Showcase</title>
+    <title>InvoiceGen | Free Invoice Generator</title>
+    <meta name="description" content="Generate professional invoices for free. No signup required.">
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -30,6 +31,11 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="col-lg-6">
+                    <!-- Add this line below the title/tagline -->
+                    <p class="text-muted mb-2">🚀 <span id="visitor-counter">Visitors: 1,000+</span></p>
+                    <!-- Rest of your Hero content -->
+                </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
@@ -58,15 +64,16 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-4 fw-bold mb-3">Your Project Name</h1>
-                    <p class="lead mb-4">A brief, compelling tagline that describes what your project does and why it's valuable.</p>
+                    <h1 class="display-4 fw-bold mb-3">InvoiceGen</h1>
+                    <p class="lead mb-4">Create, print, and download invoices in seconds.</p>
                     <div class="d-flex gap-3">
-                        <a href="#demo" class="btn btn-primary btn-lg px-4">View Demo</a>
-                        <a href="https://github.com/yourusername/yourrepo" target="_blank" class="btn btn-outline-secondary btn-lg px-4">Source Code</a>
+                        <a href="app/index.html" class="btn btn-primary btn-lg px-4">Try Live Demo</a>
+                        <a href="#features" class="btn btn-outline-secondary btn-lg px-4">Learn More</a>
                     </div>
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0">
-                    <img src="https://via.placeholder.com/600x400" alt="Project screenshot" class="img-fluid rounded shadow">
+                    <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg
+                    " alt="InvoiceGen Screenshot" class="img-fluid rounded shadow">
                 </div>
             </div>
         </div>
@@ -77,20 +84,22 @@
         <div class="container py-3">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center mb-5">
-                    <h2 class="fw-bold mb-3">About The Project</h2>
+                    <h2 class="fw-bold mb-3">About InvoiceGen</h2>
                     <div class="divider mx-auto bg-primary"></div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <h3 class="fw-bold mb-3">Business Context</h3>
-                    <p class="text-muted">Describe the business problem or opportunity that your project addresses. Explain the pain points that exist without your solution and how your project fits into the larger context.</p>
-                    <p class="text-muted">For example: "Many small businesses struggle with inventory management. Our solution provides an easy-to-use platform that simplifies stock tracking and reduces operational costs."</p>
+                    <h3 class="fw-bold mb-3">For Small Businesses</h3>
+                    <p class="text-muted">InvoiceGen solves the hassle of manual invoice creation. Designed for freelancers, consultants, and small businesses who need a quick, professional solution without expensive software.</p>
                 </div>
                 <div class="col-lg-6">
-                    <h3 class="fw-bold mb-3">Problem Solved</h3>
-                    <p class="text-muted">Clearly articulate the specific problem your project solves. Be concrete about the challenges users face and how your solution addresses them.</p>
-                    <p class="text-muted">Example: "Traditional inventory systems require expensive hardware and complex training. Our web-based solution works on any device with minimal setup, saving businesses time and money."</p>
+                    <h3 class="fw-bold mb-3">How It Works</h3>
+                    <ol class="text-muted">
+                        <li class="mb-2">Fill in client and item details</li>
+                        <li class="mb-2">Auto-calculate totals with tax</li>
+                        <li>Export as PDF or print directly</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -109,87 +118,80 @@
                 <div class="col-md-4">
                     <div class="feature-card p-4 h-100 rounded bg-white shadow-sm">
                         <div class="icon-wrapper bg-primary-light mb-3">
-                            <span class="material-icons text-primary">bolt</span>
+                            <span class="material-icons text-primary">receipt</span>
                         </div>
-                        <h4 class="fw-bold mb-3">Fast Performance</h4>
-                        <p class="text-muted">Optimized for speed with efficient code and modern techniques to ensure quick load times.</p>
+                        <h4 class="fw-bold mb-3">Professional Templates</h4>
+                        <p class="text-muted">Choose from a range of sleek, business-ready invoice templates.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-card p-4 h-100 rounded bg-white shadow-sm">
                         <div class="icon-wrapper bg-primary-light mb-3">
-                            <span class="material-icons text-primary">devices</span>
+                            <span class="material-icons text-primary">autorenew</span>
                         </div>
-                        <h4 class="fw-bold mb-3">Responsive Design</h4>
-                        <p class="text-muted">Works perfectly on all devices from mobile phones to desktop computers.</p>
+                        <h4 class="fw-bold mb-3">Auto Calculations</h4>
+                        <p class="text-muted">Automatically calculates totals, taxes, and discounts in real-time.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-card p-4 h-100 rounded bg-white shadow-sm">
                         <div class="icon-wrapper bg-primary-light mb-3">
-                            <span class="material-icons text-primary">security</span>
+                            <span class="material-icons text-primary">cloud_download</span>
                         </div>
-                        <h4 class="fw-bold mb-3">Secure</h4>
-                        <p class="text-muted">Built with security best practices to protect user data and privacy.</p>
+                        <h4 class="fw-bold mb-3">PDF Download</h4>
+                        <p class="text-muted">Easily download or print invoices in high-quality PDF format.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-card p-4 h-100 rounded bg-white shadow-sm">
                         <div class="icon-wrapper bg-primary-light mb-3">
-                            <span class="material-icons text-primary">settings</span>
+                            <span class="material-icons text-primary">email</span>
                         </div>
-                        <h4 class="fw-bold mb-3">Easy to Customize</h4>
-                        <p class="text-muted">Modular design makes it simple to adapt to your specific needs.</p>
+                        <h4 class="fw-bold mb-3">Email Integration</h4>
+                        <p class="text-muted">Send invoices directly to clients via email from within the app.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-card p-4 h-100 rounded bg-white shadow-sm">
                         <div class="icon-wrapper bg-primary-light mb-3">
-                            <span class="material-icons text-primary">code</span>
+                            <span class="material-icons text-primary">dashboard</span>
                         </div>
-                        <h4 class="fw-bold mb-3">Clean Code</h4>
-                        <p class="text-muted">Well-structured, documented code that's easy to maintain and extend.</p>
+                        <h4 class="fw-bold mb-3">Dashboard</h4>
+                        <p class="text-muted">Track invoice statuses, payments, and client activity in one place.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-card p-4 h-100 rounded bg-white shadow-sm">
                         <div class="icon-wrapper bg-primary-light mb-3">
-                            <span class="material-icons text-primary">group</span>
+                            <span class="material-icons text-primary">edit</span>
                         </div>
-                        <h4 class="fw-bold mb-3">User Friendly</h4>
-                        <p class="text-muted">Intuitive interface designed with user experience in mind.</p>
+                        <h4 class="fw-bold mb-3">Custom Fields</h4>
+                        <p class="text-muted">Add custom fields like PO numbers, payment terms, and notes.</p>
                     </div>
                 </div>
             </div>
+            
         </div>
     </section>
 
     <!-- Demo Showcase -->
     <section id="demo" class="py-5">
         <div class="container py-3">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center mb-5">
-                    <h2 class="fw-bold mb-3">Project Demo</h2>
-                    <div class="divider mx-auto bg-primary"></div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-12 mb-4">
                     <div class="ratio ratio-16x9 rounded shadow">
-                        <!-- Replace with your demo video or GIF -->
-                        <img src="https://via.placeholder.com/800x450" alt="Project demo" class="img-fluid">
-                        <!-- Alternatively, embed a video:
-                        <iframe src="https://www.youtube.com/embed/yourvideoid" allowfullscreen></iframe> -->
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-md-6 mb-3 mb-md-0">
-                    <img src="https://via.placeholder.com/400x600" alt="Mobile screenshot" class="img-fluid rounded shadow">
+                    <img src="assets/screenshots/mobile.png" alt="Mobile view" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-md-6">
-                    <img src="https://via.placeholder.com/600x400" alt="Desktop screenshot" class="img-fluid rounded shadow">
+                    <img src="assets/screenshots/desktop.png" alt="Desktop view" class="img-fluid rounded shadow">
                 </div>
             </div>
         </div>
+    </section>
     </section>
 
     <!-- Tech Stack -->
@@ -244,16 +246,11 @@
 
     <!-- Call to Action -->
     <section class="py-5 bg-primary text-white">
-        <div class="container py-3 text-center">
-            <h2 class="fw-bold mb-4">Ready to Try It Out?</h2>
-            <p class="lead mb-5">Experience the benefits of our solution firsthand with a live demo or explore the source code.</p>
-            <div class="d-flex justify-content-center gap-3">
-                <a href="#demo" class="btn btn-light btn-lg px-4">Live Demo</a>
-                <a href="https://github.com/yourusername/yourrepo" target="_blank" class="btn btn-outline-light btn-lg px-4">View Source</a>
-            </div>
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Ready to Generate Invoices?</h2>
+            <a href="app/index.html" class="btn btn-light btn-lg px-4">Launch App</a>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container py-3">
